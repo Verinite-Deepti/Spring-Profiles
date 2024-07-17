@@ -50,21 +50,21 @@ Each file will contain the environment-specific properties.
     
     endpoint: "https://dev.api.example.com"
 
-**qa:**
+**test:**
 
   database:
   
-    url: "jdbc:mysql://localhost/qa_db"
+    url: "jdbc:mysql://localhost/test_db"
     
-    user: "qa_user"
+    user: "test_user"
     
-    password: "qa_password"
+    password: "test_password"
     
   api:
   
-    key: "qa_api_key"
+    key: "test_api_key"
     
-    endpoint: "https://qa.api.example.com"
+    endpoint: "https://test.api.example.com"
 
 **production:**
 
