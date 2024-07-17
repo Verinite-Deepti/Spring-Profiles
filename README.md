@@ -35,28 +35,50 @@ Each file will contain the environment-specific properties.
 **2)Single YAML File with Profiles:**
 
 **development:**
+
   database:
+  
     url: "jdbc:mysql://localhost/dev_db"
+    
     user: "dev_user"
+    
     password: "dev_password"
+    
   api:
+  
     key: "dev_api_key"
+    
     endpoint: "https://dev.api.example.com"
 
 **qa:**
+
   database:
+  
     url: "jdbc:mysql://localhost/qa_db"
+    
     user: "qa_user"
+    
     password: "qa_password"
+    
   api:
+  
     key: "qa_api_key"
+    
     endpoint: "https://qa.api.example.com"
 
 **production:**
+
   database:
+  
     url: "jdbc:mysql://localhost/prod_db"
+    
     user: "prod_user"
+    
     password: "prod_password"
+    
   api:
+  
     key: "prod_api_key"
+    
     endpoint: "https://api.example.com"
+    
